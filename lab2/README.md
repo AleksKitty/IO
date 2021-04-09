@@ -52,11 +52,9 @@ sudo xxd /dev/mydisk1 | head -10
 
 Из виртуального диска на виртуальный диск:
 
-sudo dd if=/dev/zero  of=/dev/mydisk1
-
 sudo dd if=/dev/mydisk1 of=/dev/mydisk2 count=1
 
-![image](https://user-images.githubusercontent.com/44571716/114161804-22ba1600-9931-11eb-9ebb-d92b0f9e63b6.png)
+![image](https://user-images.githubusercontent.com/44571716/114165318-fc967500-9934-11eb-8fe7-d27edb00ee32.png)
 
 Из виртуального диска на реальный диск:
 
