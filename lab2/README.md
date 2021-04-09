@@ -48,6 +48,13 @@ sudo echo "A a a a a a a a" > /dev/mydisk1
 
 sudo xxd /dev/mydisk1 | head -10
 
+### Измерение скорости при коприровании:
+
+Из виртуального диска на виртуальный диск:
+
 ![image](https://user-images.githubusercontent.com/44571716/114161804-22ba1600-9931-11eb-9ebb-d92b0f9e63b6.png)
 
+Из виртуального диска на реальный диск:
+
+Screenshot 2021-04-09 at 12.51.47![image](https://user-images.githubusercontent.com/44571716/114163129-842eb480-9932-11eb-8643-bddf672a4125.png)
 
