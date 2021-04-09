@@ -37,5 +37,17 @@
 sudo fdisk /dev/mydisk -l
 
 Выдать полные права:
+
 sudo chmod 777 /dev/mydisk1
+
+Записываем строку в первый раздел диска:
+
+sudo echo "A a a a a a a a" > /dev/mydisk1
+
+Читаем содержимое последних десяти строчек первого раздела диска:
+
+sudo xxd /dev/mydisk1 | head -10
+
+![image](https://user-images.githubusercontent.com/44571716/114161804-22ba1600-9931-11eb-9ebb-d92b0f9e63b6.png)
+
 
