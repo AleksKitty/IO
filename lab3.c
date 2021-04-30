@@ -25,8 +25,6 @@ static struct net_device_stats stats;
 
 static struct net_device *child = NULL;
 
-static long target_dest = htonl(0xA9FE6E46);
-
 static struct proc_dir_entry* entry;
 
 static long packets = 0;
